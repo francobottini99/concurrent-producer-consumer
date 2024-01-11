@@ -2,6 +2,13 @@
 
 El proyecto aborda un sistema de adquisición de datos concurrente que incluye dos buffers y tres tipos de actores: Creadores de Datos, Revisores de Datos y Consumidores de Datos. El ciclo de operación implica la creación, revisión y consumo de datos.
 
+### Autores:
+- **Bottini, Franco Nicolas**
+- **Robledo, Valentin**
+- **Lencina, Aquiles Benjamín**
+- **Bernaus, Julieta**
+- **Cabrera, Augusto Gabriel**
+
 ## Estructura del Código
 
 ### Clases Principales:
