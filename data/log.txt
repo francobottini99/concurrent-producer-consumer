@@ -1,0 +1,522 @@
+*-------------------------------------------------------------------------------*
+Execution time: 0,264000 [Seg]
+InitBuffer size: 3
+ValidBuffer size: 0
+*-------------------------------------------------------------------------------*
+
+   Creators Totals:
+       data lost: 0
+       data accepted: 3
+       total data produced: 3
+       loss percentage: 0,000000 %
+
+   Creator 0:
+      data lost: 0
+      data accepted: 1
+      total data produced: 1
+      loss percentage: 0,000000 %
+      responsibility percentage in lost data: NaN %
+      responsibility percentage in accepted data: 33,333332 %
+      responsibility percentage in produced data: 33,333332 %
+
+   Creator 1:
+      data lost: 0
+      data accepted: 1
+      total data produced: 1
+      loss percentage: 0,000000 %
+      responsibility percentage in lost data: NaN %
+      responsibility percentage in accepted data: 33,333332 %
+      responsibility percentage in produced data: 33,333332 %
+
+   Creator 2:
+      data lost: 0
+      data accepted: 1
+      total data produced: 1
+      loss percentage: 0,000000 %
+      responsibility percentage in lost data: NaN %
+      responsibility percentage in accepted data: 33,333332 %
+      responsibility percentage in produced data: 33,333332 %
+
+   Creator 3:
+      data lost: 0
+      data accepted: 1
+      total data produced: 1
+      loss percentage: 0,000000 %
+      responsibility percentage in lost data: NaN %
+      responsibility percentage in accepted data: 100,000000 %
+      responsibility percentage in produced data: 100,000000 %
+
+   Reviewers Totals:
+       data revised: 8
+       data copied: 3
+
+   Reviewer 0:
+      data revised: 5
+      data copied: 0
+      responsibility percentage in copied data: 0,000000 %
+
+   Reviewer 1:
+      data revised: 3
+      data copied: 3
+      responsibility percentage in copied data: 100,000000 %
+
+   Consumers Totals:
+       data taken: 2
+
+   Consumer 0:
+      data taken: 1
+      responsibility percentage in taken data: 50,000000 %
+
+   Consumer 1:
+      data taken: 1
+      responsibility percentage in taken data: 50,000000 %
+
+   Threads State:
+      Creator 0 (Thread ID: 16): RUNNABLE
+      Creator 1 (Thread ID: 17): TIMED_WAITING
+      Creator 2 (Thread ID: 18): WAITING
+      Creator 3 (Thread ID: 19): TIMED_WAITING
+
+      Consumer 0 (Thread ID: 20): TIMED_WAITING
+      Consumer 1 (Thread ID: 21): WAITING
+
+      Reviewer 0 (Thread ID: 22): WAITING
+      Reviewer 1 (Thread ID: 23): TIMED_WAITING
+
+*-------------------------------------------------------------------------------*
+
+*-------------------------------------------------------------------------------*
+Execution time: 2,377000 [Seg]
+InitBuffer size: 98
+ValidBuffer size: 86
+*-------------------------------------------------------------------------------*
+
+   Creators Totals:
+       data lost: 47
+       data accepted: 327
+       total data produced: 374
+       loss percentage: 12,566845 %
+
+   Creator 0:
+      data lost: 17
+      data accepted: 74
+      total data produced: 91
+      loss percentage: 18,681318 %
+      responsibility percentage in lost data: 36,170212 %
+      responsibility percentage in accepted data: 22,629969 %
+      responsibility percentage in produced data: 24,331551 %
+
+   Creator 1:
+      data lost: 13
+      data accepted: 80
+      total data produced: 93
+      loss percentage: 13,978495 %
+      responsibility percentage in lost data: 27,659575 %
+      responsibility percentage in accepted data: 24,464832 %
+      responsibility percentage in produced data: 24,866310 %
+
+   Creator 2:
+      data lost: 10
+      data accepted: 85
+      total data produced: 95
+      loss percentage: 10,526316 %
+      responsibility percentage in lost data: 21,276596 %
+      responsibility percentage in accepted data: 25,993883 %
+      responsibility percentage in produced data: 25,401070 %
+
+   Creator 3:
+      data lost: 7
+      data accepted: 88
+      total data produced: 95
+      loss percentage: 7,368421 %
+      responsibility percentage in lost data: 14,893617 %
+      responsibility percentage in accepted data: 26,911316 %
+      responsibility percentage in produced data: 25,401070 %
+
+   Reviewers Totals:
+       data revised: 642
+       data copied: 318
+
+   Reviewer 0:
+      data revised: 324
+      data copied: 0
+      responsibility percentage in copied data: 0,000000 %
+
+   Reviewer 1:
+      data revised: 318
+      data copied: 318
+      responsibility percentage in copied data: 100,000000 %
+
+   Consumers Totals:
+       data taken: 230
+
+   Consumer 0:
+      data taken: 127
+      responsibility percentage in taken data: 55,217392 %
+
+   Consumer 1:
+      data taken: 103
+      responsibility percentage in taken data: 44,782608 %
+
+   Threads State:
+      Creator 0 (Thread ID: 16): TIMED_WAITING
+      Creator 1 (Thread ID: 17): TIMED_WAITING
+      Creator 2 (Thread ID: 18): TIMED_WAITING
+      Creator 3 (Thread ID: 19): TIMED_WAITING
+
+      Consumer 0 (Thread ID: 20): TIMED_WAITING
+      Consumer 1 (Thread ID: 21): TIMED_WAITING
+
+      Reviewer 0 (Thread ID: 22): TIMED_WAITING
+      Reviewer 1 (Thread ID: 23): TIMED_WAITING
+
+*-------------------------------------------------------------------------------*
+
+*-------------------------------------------------------------------------------*
+Execution time: 4,489000 [Seg]
+InitBuffer size: 89
+ValidBuffer size: 81
+*-------------------------------------------------------------------------------*
+
+   Creators Totals:
+       data lost: 145
+       data accepted: 591
+       total data produced: 736
+       loss percentage: 19,701086 %
+
+   Creator 0:
+      data lost: 43
+      data accepted: 138
+      total data produced: 181
+      loss percentage: 23,756907 %
+      responsibility percentage in lost data: 29,655172 %
+      responsibility percentage in accepted data: 23,350254 %
+      responsibility percentage in produced data: 24,592392 %
+
+   Creator 1:
+      data lost: 39
+      data accepted: 139
+      total data produced: 178
+      loss percentage: 21,910112 %
+      responsibility percentage in lost data: 26,896551 %
+      responsibility percentage in accepted data: 23,519459 %
+      responsibility percentage in produced data: 24,184782 %
+
+   Creator 2:
+      data lost: 35
+      data accepted: 155
+      total data produced: 190
+      loss percentage: 18,421053 %
+      responsibility percentage in lost data: 24,137932 %
+      responsibility percentage in accepted data: 26,226734 %
+      responsibility percentage in produced data: 25,815218 %
+
+   Creator 3:
+      data lost: 28
+      data accepted: 159
+      total data produced: 187
+      loss percentage: 14,973262 %
+      responsibility percentage in lost data: 19,310345 %
+      responsibility percentage in accepted data: 26,903553 %
+      responsibility percentage in produced data: 25,407608 %
+
+   Reviewers Totals:
+       data revised: 1168
+       data copied: 584
+
+   Reviewer 0:
+      data revised: 584
+      data copied: 152
+      responsibility percentage in copied data: 26,027397 %
+
+   Reviewer 1:
+      data revised: 584
+      data copied: 432
+      responsibility percentage in copied data: 73,972603 %
+
+   Consumers Totals:
+       data taken: 503
+
+   Consumer 0:
+      data taken: 258
+      responsibility percentage in taken data: 51,292248 %
+
+   Consumer 1:
+      data taken: 245
+      responsibility percentage in taken data: 48,707752 %
+
+   Threads State:
+      Creator 0 (Thread ID: 16): RUNNABLE
+      Creator 1 (Thread ID: 17): TIMED_WAITING
+      Creator 2 (Thread ID: 18): TIMED_WAITING
+      Creator 3 (Thread ID: 19): TIMED_WAITING
+
+      Consumer 0 (Thread ID: 20): TIMED_WAITING
+      Consumer 1 (Thread ID: 21): TIMED_WAITING
+
+      Reviewer 0 (Thread ID: 22): TIMED_WAITING
+      Reviewer 1 (Thread ID: 23): TIMED_WAITING
+
+*-------------------------------------------------------------------------------*
+
+*-------------------------------------------------------------------------------*
+Execution time: 6,847000 [Seg]
+InitBuffer size: 100
+ValidBuffer size: 38
+*-------------------------------------------------------------------------------*
+
+   Creators Totals:
+       data lost: 289
+       data accepted: 786
+       total data produced: 1075
+       loss percentage: 26,883720 %
+
+   Creator 0:
+      data lost: 92
+      data accepted: 175
+      total data produced: 267
+      loss percentage: 34,456928 %
+      responsibility percentage in lost data: 31,833910 %
+      responsibility percentage in accepted data: 22,264631 %
+      responsibility percentage in produced data: 24,837210 %
+
+   Creator 1:
+      data lost: 67
+      data accepted: 191
+      total data produced: 258
+      loss percentage: 25,968992 %
+      responsibility percentage in lost data: 23,183392 %
+      responsibility percentage in accepted data: 24,300255 %
+      responsibility percentage in produced data: 24,000000 %
+
+   Creator 2:
+      data lost: 73
+      data accepted: 208
+      total data produced: 281
+      loss percentage: 25,978647 %
+      responsibility percentage in lost data: 25,259516 %
+      responsibility percentage in accepted data: 26,463104 %
+      responsibility percentage in produced data: 26,139534 %
+
+   Creator 3:
+      data lost: 60
+      data accepted: 212
+      total data produced: 272
+      loss percentage: 22,058823 %
+      responsibility percentage in lost data: 20,761246 %
+      responsibility percentage in accepted data: 26,972010 %
+      responsibility percentage in produced data: 25,302326 %
+
+   Reviewers Totals:
+       data revised: 1481
+       data copied: 724
+
+   Reviewer 0:
+      data revised: 757
+      data copied: 288
+      responsibility percentage in copied data: 39,779007 %
+
+   Reviewer 1:
+      data revised: 724
+      data copied: 436
+      responsibility percentage in copied data: 60,220993 %
+
+   Consumers Totals:
+       data taken: 688
+
+   Consumer 0:
+      data taken: 368
+      responsibility percentage in taken data: 53,488373 %
+
+   Consumer 1:
+      data taken: 320
+      responsibility percentage in taken data: 46,511627 %
+
+   Threads State:
+      Creator 0 (Thread ID: 16): TIMED_WAITING
+      Creator 1 (Thread ID: 17): TIMED_WAITING
+      Creator 2 (Thread ID: 18): TIMED_WAITING
+      Creator 3 (Thread ID: 19): TIMED_WAITING
+
+      Consumer 0 (Thread ID: 20): TIMED_WAITING
+      Consumer 1 (Thread ID: 21): TIMED_WAITING
+
+      Reviewer 0 (Thread ID: 22): TIMED_WAITING
+      Reviewer 1 (Thread ID: 23): TIMED_WAITING
+
+*-------------------------------------------------------------------------------*
+
+*-------------------------------------------------------------------------------*
+Execution time: 8,998000 [Seg]
+InitBuffer size: 46
+ValidBuffer size: 46
+*-------------------------------------------------------------------------------*
+
+   Creators Totals:
+       data lost: 467
+       data accepted: 1000
+       total data produced: 1467
+       loss percentage: 31,833673 %
+
+   Creator 0:
+      data lost: 131
+      data accepted: 234
+      total data produced: 365
+      loss percentage: 35,890411 %
+      responsibility percentage in lost data: 28,051392 %
+      responsibility percentage in accepted data: 23,400000 %
+      responsibility percentage in produced data: 24,880709 %
+
+   Creator 1:
+      data lost: 104
+      data accepted: 250
+      total data produced: 354
+      loss percentage: 29,378531 %
+      responsibility percentage in lost data: 22,269808 %
+      responsibility percentage in accepted data: 25,000000 %
+      responsibility percentage in produced data: 24,130878 %
+
+   Creator 2:
+      data lost: 124
+      data accepted: 255
+      total data produced: 379
+      loss percentage: 32,717678 %
+      responsibility percentage in lost data: 26,552462 %
+      responsibility percentage in accepted data: 25,500000 %
+      responsibility percentage in produced data: 25,835037 %
+
+   Creator 3:
+      data lost: 108
+      data accepted: 261
+      total data produced: 369
+      loss percentage: 29,268293 %
+      responsibility percentage in lost data: 23,126339 %
+      responsibility percentage in accepted data: 26,100000 %
+      responsibility percentage in produced data: 25,153374 %
+
+   Reviewers Totals:
+       data revised: 2000
+       data copied: 1000
+
+   Reviewer 0:
+      data revised: 1000
+      data copied: 372
+      responsibility percentage in copied data: 37,200001 %
+
+   Reviewer 1:
+      data revised: 1000
+      data copied: 628
+      responsibility percentage in copied data: 62,799999 %
+
+   Consumers Totals:
+       data taken: 954
+
+   Consumer 0:
+      data taken: 510
+      responsibility percentage in taken data: 53,459118 %
+
+   Consumer 1:
+      data taken: 444
+      responsibility percentage in taken data: 46,540882 %
+
+   Threads State:
+      Creator 0 (Thread ID: 16): TERMINATED
+      Creator 1 (Thread ID: 17): TERMINATED
+      Creator 2 (Thread ID: 18): TERMINATED
+      Creator 3 (Thread ID: 19): TERMINATED
+
+      Consumer 0 (Thread ID: 20): TIMED_WAITING
+      Consumer 1 (Thread ID: 21): TIMED_WAITING
+
+      Reviewer 0 (Thread ID: 22): TIMED_WAITING
+      Reviewer 1 (Thread ID: 23): TIMED_WAITING
+
+*-------------------------------------------------------------------------------*
+
+*-------------------------------------------------------------------------------*
+Execution time: 9,277000 [Seg]
+InitBuffer size: 0
+ValidBuffer size: 0
+*-------------------------------------------------------------------------------*
+
+   Creators Totals:
+       data lost: 467
+       data accepted: 1000
+       total data produced: 1467
+       loss percentage: 31,833673 %
+
+   Creator 0:
+      data lost: 131
+      data accepted: 234
+      total data produced: 365
+      loss percentage: 35,890411 %
+      responsibility percentage in lost data: 28,051392 %
+      responsibility percentage in accepted data: 23,400000 %
+      responsibility percentage in produced data: 24,880709 %
+
+   Creator 1:
+      data lost: 104
+      data accepted: 250
+      total data produced: 354
+      loss percentage: 29,378531 %
+      responsibility percentage in lost data: 22,269808 %
+      responsibility percentage in accepted data: 25,000000 %
+      responsibility percentage in produced data: 24,130878 %
+
+   Creator 2:
+      data lost: 124
+      data accepted: 255
+      total data produced: 379
+      loss percentage: 32,717678 %
+      responsibility percentage in lost data: 26,552462 %
+      responsibility percentage in accepted data: 25,500000 %
+      responsibility percentage in produced data: 25,835037 %
+
+   Creator 3:
+      data lost: 108
+      data accepted: 261
+      total data produced: 369
+      loss percentage: 29,268293 %
+      responsibility percentage in lost data: 23,126339 %
+      responsibility percentage in accepted data: 26,100000 %
+      responsibility percentage in produced data: 25,153374 %
+
+   Reviewers Totals:
+       data revised: 2000
+       data copied: 1000
+
+   Reviewer 0:
+      data revised: 1000
+      data copied: 372
+      responsibility percentage in copied data: 37,200001 %
+
+   Reviewer 1:
+      data revised: 1000
+      data copied: 628
+      responsibility percentage in copied data: 62,799999 %
+
+   Consumers Totals:
+       data taken: 1000
+
+   Consumer 0:
+      data taken: 533
+      responsibility percentage in taken data: 53,299999 %
+
+   Consumer 1:
+      data taken: 467
+      responsibility percentage in taken data: 46,700001 %
+
+   Threads State:
+      Creator 0 (Thread ID: 16): TERMINATED
+      Creator 1 (Thread ID: 17): TERMINATED
+      Creator 2 (Thread ID: 18): TERMINATED
+      Creator 3 (Thread ID: 19): TERMINATED
+
+      Consumer 0 (Thread ID: 20): TERMINATED
+      Consumer 1 (Thread ID: 21): TERMINATED
+
+      Reviewer 0 (Thread ID: 22): TERMINATED
+      Reviewer 1 (Thread ID: 23): TERMINATED
+
+*-------------------------------------------------------------------------------*
+
