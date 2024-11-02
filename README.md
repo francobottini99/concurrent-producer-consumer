@@ -1,51 +1,51 @@
-# Sistema de Adquisición de Datos Concurrente
+# Concurrent Data Acquisition System
 
-El proyecto aborda un sistema de adquisición de datos concurrente que incluye dos buffers y tres tipos de actores: Creadores de Datos, Revisores de Datos y Consumidores de Datos. El ciclo de operación implica la creación, revisión y consumo de datos.
+This project addresses a concurrent data acquisition system that includes two buffers and three types of actors: Data Creators, Data Reviewers, and Data Consumers. The operational cycle involves data creation, review, and consumption.
 
-### Autores:
-- **Bottini, Franco Nicolas**
-- **Robledo, Valentin**
-- **Lencina, Aquiles Benjamín**
-- **Bernaus, Julieta**
-- **Cabrera, Augusto Gabriel**
+### Authors:
+- **Franco Nicolas Bottini**
+- **Valentin Robledo**
+- **Aquiles Benjamín Lencina**
+- **Julieta Bernaus**
+- **Augusto Gabriel Cabrera**
 
-## Estructura del Código
+## Code Structure
 
-### Clases Principales:
+### Main Classes:
 
-- **Data**: Representa la estructura de datos utilizada en el programa.
-- **Buffer**: Clase abstracta que modela un espacio de almacenamiento de datos.
-- **InitBuffer**: Extiende Buffer y representa el almacenamiento inicial de datos.
-- **ValidBuffer**: Extiende Buffer y almacena datos validados.
-- **Creator**: Implementa la interfaz Runnable y se encarga de crear datos.
-- **Reviewer**: Implementa la interfaz Runnable y revisa datos almacenados.
-- **Consumer**: Implementa la interfaz Runnable y consume datos validados.
-- **Log**: Extiende Thread y registra estadísticas durante la ejecución.
+- **Data**: Represents the data structure used in the program.
+- **Buffer**: An abstract class modeling a data storage space.
+- **InitBuffer**: Extends Buffer and represents the initial data storage.
+- **ValidBuffer**: Extends Buffer and stores validated data.
+- **Creator**: Implements the Runnable interface and is responsible for data creation.
+- **Reviewer**: Implements the Runnable interface and reviews stored data.
+- **Consumer**: Implements the Runnable interface and consumes validated data.
+- **Log**: Extends Thread and records execution statistics.
 
-### Funcionamiento del Código
+### Code Operation
 
-1. **Inicialización**: Se crean instancias de las clases y se inician los hilos correspondientes a los actores (creadores, revisores, consumidores) y al log.
+1. **Initialization**: Instances of the classes are created, and the threads corresponding to the actors (creators, reviewers, consumers) and log are started.
 
-2. **Creación de Datos**: Los creadores generan datos y los depositan en el Buffer Inicial (`InitBuffer`).
+2. **Data Creation**: The creators generate data and deposit it in the Initial Buffer (`InitBuffer`).
 
-3. **Revisión de Datos**: Los revisores verifican los datos en el Buffer Inicial. Cuando todos los revisores han revisado un dato, el último revisor lo copia al Buffer de Validados (`ValidBuffer`).
+3. **Data Review**: The reviewers verify the data in the Initial Buffer. When all reviewers have reviewed a piece of data, the last reviewer copies it to the Validated Buffer (`ValidBuffer`).
 
-4. **Consumo de Datos**: Los consumidores retiran datos del Buffer de Validados y eliminan la copia en el Buffer Inicial.
+4. **Data Consumption**: The consumers retrieve data from the Validated Buffer and remove the corresponding copy in the Initial Buffer.
 
-5. **Registro y Estadísticas**: El log registra estadísticas detalladas, incluyendo el tiempo de ejecución, la cantidad de datos en cada buffer y las acciones de cada actor.
+5. **Logging and Statistics**: The log records detailed statistics, including execution time, the number of data items in each buffer, and each actor's actions.
 
-## Diagrama de Clases
+## Class Diagram
 
-La estructura del programa se representa en el siguiente diagrama de clases:
+The program structure is represented in the following class diagram:
 
 <p align="center">
-  <img src="img/Diagrama%20de%20Clases.jpg" alt="Diagrama de Clases">
+  <img src="img/Diagrama%20de%20Clases.jpg" alt="Class Diagram">
 </p>
 
-## Diagrama de Secuencia
+## Sequence Diagram
 
-El proceso de creación, revisión y consumo de un dato se ilustra en el siguiente diagrama de secuencia:
+The process of creating, reviewing, and consuming a data item is illustrated in the following sequence diagram:
 
 <p align="center">
-  <img src="img/Diagrama%20de%20Secuencia.jpg" alt="Diagrama de Secuencia">
+  <img src="img/Diagrama%20de%20Secuencia.jpg" alt="Sequence Diagram">
 </p>
